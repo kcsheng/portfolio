@@ -8,11 +8,11 @@ This portfolio is set to evolve around my core skills, goals, values and passion
 
 ### Wireframe<hr>
 
-- Section 1
+- Section 1<br>
   ![wireframe section 1](./assets/img/section1.png)
-- Section 2
+- Section 2<br>
   ![wireframe section 2](./assets/img/section2.png)
-- Section 3
+- Section 3<br>
   ![wireframe section 3](./assets/img/section3.png)
 
 ### Color palette<hr>
