@@ -2,11 +2,11 @@
 
 With web technologies acquired thus far, my personal portfolio page will be continuously revised.
 
-#### Requirement<hr>
+### Requirement<hr>
 
 This portfolio is set to evolve around my core skills, goals, values and passion. With a minimalistic style as my preferred choice, it should be simple and highly navigatable. To be UI friendly, the portfolio is equipped with components like a site preloader.
 
-#### Wireframe<hr>
+### Wireframe<hr>
 
 - Section 1
   ![wireframe section 1](./assets/img/section1.png)
@@ -15,6 +15,6 @@ This portfolio is set to evolve around my core skills, goals, values and passion
 - Section 3
   ![wireframe section 3](./assets/img/section3.png)
 
-#### Color palette<hr>
+### Color palette<hr>
 
 ![color palette](./assets/img/color-palette.png)
