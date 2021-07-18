@@ -2,6 +2,10 @@
 @import "./reset";
 @import "./menu";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: $almond;
   max-width: 2094px;

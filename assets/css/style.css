@@ -27,6 +27,10 @@ ul {
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f5f0e1;
   max-width: 2094px;
