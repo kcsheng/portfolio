@@ -18,3 +18,7 @@ This portfolio is set to evolve around my core skills, goals, values and passion
 ### Color palette<hr>
 
 ![color palette](./assets/img/color-palette.png)
+
+### Cover page implementation<hr>
+
+![cover page of kc sheng's portfolio site](./assets/img/coverpage.png)
