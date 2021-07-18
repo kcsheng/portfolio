@@ -4,10 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,34 +17,231 @@
     <div class="wrapper">
       <header>
         <nav class="my-nav">
-          <ul>
-            <li><a>About</a></li>
-            <li><a>Work</a></li>
-            <li><a>Experience</a></li>
-            <li><a>Contact</a></li>
+          <ul class="menu">
+            <li class="hidden">
+              <a href="#work"><i class="fas fa-briefcase fa-2x"></i></a>
+            </li>
+            <li class="hidden">
+              <a href="#about"><i class="fas fa-user-tie fa-2x"></i></a>
+            </li>
+            <li class="hidden">
+              <a href="mailto:kacysheng@mail.com"
+                ><i class="fas fa-envelope fa-2x"></i
+              ></a>
+            </li>
+            <li>
+              <i class="fas fa-bars fa-2x"></i>
+            </li>
           </ul>
-          <button class="hamburger">
-            <div class="bar"></div>
-          </button>
         </nav>
-        <div class="my-name"><h1>KC SHENG</h1></div>
+        <div class="my-name"><h1>kc sheng</h1></div>
         <div class="my-details">
-          <div class="title">
+          <div class="my-titles">
             <div>>> Web Developer</div>
             <div>>> Full-Stack Developer</div>
           </div>
-          <div class="links"></div>
+          <div class="my-info">
+            <div class="greeting">Let's have a chat!</div>
+            <div class="email">
+              <a href="mailto:kacysheng@mail.com" target="_blank"
+                >kacysheng@mail.com</a
+              >
+            </div>
+            <div class="links">
+              <a href="https://www.github.com/kcsheng" target="_blank"
+                >GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/in/kc-sheng-7b26741a5/"
+                target="_blank"
+                >LinkedIn</a
+              >
+              <a href="https://twitter.com/sheng_kc" target="_blank">Twitter</a>
+            </div>
+          </div>
         </div>
       </header>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+
+      <main id="work">
+        <section class="project1">
+          <div class="proj1-descr">
+            <div class="proj1-title">
+              <a href="https://github.com/kcsheng/weatherly"
+                ><h2>Weatherly</h2></a
+              >
+            </div>
+            <div class="proj1-tech"><p>Third party API, DOM, jQuery</p></div>
+            <div class="proj1-summary">
+              <p>
+                Weatherly is a weather forecast app that presents the current
+                and future 5-day weather given a geographical location. It is
+                able to store clickable search history.
+              </p>
+            </div>
+          </div>
+          <div class="proj1-scrnshot">
+            <a href="https://kcsheng.github.io/weatherly/"
+              ><img
+                src="./assets/img/weatherly.png"
+                alt="weatherly app screenshot"
+            /></a>
+          </div>
+        </section>
+        <section class="project2">
+          <div class="proj2-descr">
+            <div class="proj2-title">
+              <a href="https://github.com/kcsheng/stride"><h2>Stride</h2></a>
+            </div>
+            <div class="proj2-tech">
+              <p>DOM, jQuery, Moment.js, Bootstrap</p>
+            </div>
+            <div class="proj2-summary">
+              <p>
+                Stride is a day planner that allows a user to save daily tasks
+                on an hourly basis. Tasks can be updated and can be cleared at
+                the end of the day.
+              </p>
+            </div>
+          </div>
+          <div class="proj2-scrnshot">
+            <a href="https://kcsheng.github.io/stride/"
+              ><img src="./assets/img/stride.png" alt="stride app screenshot"
+            /></a>
+          </div>
+        </section>
+        <section class="project3">
+          <div class="proj3-descr">
+            <div class="proj3-title">
+              <a href="https://github.com/kcsheng/your-daily-5-minutes"
+                ><h2>Your Daily 5 minutes</h2></a
+              >
+            </div>
+            <div class="proj3-tech">
+              <p>DOM, jQuery, Third-party API, Git Collab Work Flow</p>
+            </div>
+            <div class="proj3-summary">
+              <p>
+                A responsive app for an individual who seeks 5 minute
+                entertainment by a video, a song or news headlines. Your daily 5
+                minutes is a collaborative project of four developers.
+              </p>
+            </div>
+          </div>
+          <div class="proj3-scrnshot">
+            <a
+              href="https://kcsheng.github.io/your-daily-5-minutes/DemoSettings.html"
+              ><img
+                src="./assets/img/daily5.png"
+                alt="your daily 5 minutes app screenshot"
+            /></a>
+          </div>
+        </section>
+        <section class="project4">
+          <div class="proj4-descr">
+            <div class="proj4-title">
+              <a href="https://github.com/kcsheng/javascrizz"
+                ><h2>JavaScrizz</h2></a
+              >
+            </div>
+            <div class="proj4-tech">
+              <p>DOM, JSON, Local Storage</p>
+            </div>
+            <div class="proj4-summary">
+              <p>
+                Javascrizz is a browser-based interactive quiz game that tests
+                user's javascript knowledge. The player needs to race with time
+                to gain high scores. Panelty applies when wrong answers are
+                chosen.
+              </p>
+            </div>
+          </div>
+          <div class="proj4-scrnshot">
+            <a href="https://kcsheng.github.io/javascrizz/"
+              ><img
+                src="./assets/img/javascrizz.png"
+                alt="javascrizz app screenshot"
+            /></a>
+          </div>
+        </section>
+        <section class="project5">
+          <div class="proj5-descr">
+            <div class="proj5-title">
+              <a href="https://github.com/kcsheng/TerminalApp"
+                ><h2>NewsExpress</h2></a
+              >
+            </div>
+            <div class="proj5-tech">
+              <p>Terminal, Ruby</p>
+            </div>
+            <div class="proj5-summary">
+              <p>
+                Written with Ruby, this handy terminal app is capable of
+                fetching information from the web, such as news and sports
+                update for a quick read. The functionality relies on a powerful
+                abilities of terminal to scrape information from the internet.
+              </p>
+            </div>
+          </div>
+          <div class="proj5-scrnshot">
+            <a href="https://github.com/kcsheng/TerminalApp"
+              ><img
+                src="./assets/img/newsExpress.png"
+                alt="news express app screenshot"
+            /></a>
+          </div>
+        </section>
+        <section class="project6">
+          <div class="proj6-descr">
+            <div class="proj6-title">
+              <a href="https://github.com/kcsheng/battle_city_I"
+                ><h2>Battle City I</h2></a
+              >
+            </div>
+            <div class="proj6-tech">
+              <p>Ruby, Gosu</p>
+            </div>
+            <div class="proj6-summary">
+              <p>
+                Battle City I is written using Ruby and Ruby Gosu library. It
+                emulates an archade video game Battle City. I learned a great
+                deal in programming during the process of solving complex game
+                logic issues using conditionals and modules.
+              </p>
+            </div>
+          </div>
+          <div class="proj6-scrnshot">
+            <a href="https://github.com/kcsheng/battle_city_I"
+              ><img
+                src="./assets/img/battlecity.png"
+                alt="battle city I game screenshot"
+            /></a>
+          </div>
+        </section>
+        <article class="about-me" id="about">
+          <div class="about-me-descr">
+            <h2>About Me</h2>
+            <p>
+              I am a web developer who enjoys continuously learning. With a
+              strong research background, I love to experiment and investigate
+              how code works and use it to solve different problems. I am
+              constatnly intrigued by the fact that there is often more than one
+              way to solve a particular problem. Currently I am consolidating my
+              knowledge on the server side by building projects using backend
+              technologies including node.js and express framework, and
+              associated databases.
+            </p>
+          </div>
+        </article>
+      </main>
+      <footer>
+        <p>&copy;copyright KC Sheng 2021</p>
+      </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3b6c858269.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="./assets/js/index.js"></script>
   </body>
 </html>
