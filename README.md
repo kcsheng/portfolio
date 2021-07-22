@@ -4,7 +4,7 @@ With web technologies acquired thus far, my personal portfolio page will be cont
 
 ### Requirement<hr>
 
-This portfolio is set to evolve around my core skills, goals, values and passion. With a minimalistic style as my preferred choice, it should be simple and highly navigatable. To be UI friendly, the portfolio is equipped with components like a site preloader.
+This [portfolio](https://kcsheng.github.io/portfolio/)is set to evolve around my core skills, goals, values and passion. With a minimalistic style as my preferred choice, it should be simple and highly navigatable. To be UI friendly, the portfolio is equipped with components like a site preloader.
 
 ### Wireframe<hr>
 
